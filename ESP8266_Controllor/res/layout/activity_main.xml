@@ -1,0 +1,117 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="6" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送:" />
+
+    <TextView
+        android:id="@+id/send_message"
+        android:layout_width="wrap_content"
+        android:layout_height="200px"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:layout_margin="2dip"
+        android:background="#FAFAD2"
+        android:ems="10"
+        android:singleLine="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收:" />
+
+    <TextView
+        android:id="@+id/receive_message"
+        android:layout_width="wrap_content"
+        android:layout_height="200px"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:layout_margin="2dip"
+        android:background="#FAFAD2"
+        android:ems="10"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="LED1" />
+ 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="On" />
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="On" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="On" />
+    
+    <TextView
+         android:layout_columnSpan="4"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP地址:" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FF00"
+        android:ems="8" 
+        android:text="192.168.3.11">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP端口:" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FF00"
+        android:ems="8"
+        android:inputType="number"
+        android:text="1213" >
+    </EditText>
+
+    <TextView
+         android:layout_columnSpan="4"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:text="连接" />
+
+
+</GridLayout>
